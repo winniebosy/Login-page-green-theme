@@ -1,0 +1,43 @@
+body{
+
+}
+.container{
+    margin-top:30px;
+    margin-left:auto;
+    margin-right: auto;
+    width:350px;
+    height:400px;
+    border:2px solid;
+
+}
+  .input-container{
+      display: flex;
+      flex:1 1 300px;
+      overflow: hidden;
+   
+}
+.fas fa-user-graduate{
+    padding: 0.5 rem;
+    font-size:20px;
+    color:green;
+    
+}
+input[type=text]{
+
+    /*
+    width: 80%;
+    margin-top:10px;
+    margin-left:30px;
+    padding:12px 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\
+    font-weight: bolder;*/
+    border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+    
+
+
+   
+
+
+}
