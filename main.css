@@ -10,34 +10,28 @@ body{
     border:2px solid;
 
 }
-  .input-container{
-      display: flex;
-      flex:1 1 300px;
-      overflow: hidden;
-   
-}
-.fas fa-user-graduate{
-    padding: 0.5 rem;
-    font-size:20px;
-    color:green;
+  .input-container1{
+      border:2px solid;
+      width:80%;
+      margin-left:20px;
+      margin-top: 5px;
+      
+      
     
+    
+
 }
+.fas{
+    color: green;
+    margin-left:10px;
+}
+
 input[type=text]{
-
-    /*
-    width: 80%;
-    margin-top:10px;
-    margin-left:30px;
-    padding:12px 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\
-    font-weight: bolder;*/
-    border: 0;
-  padding: 0.5rem 0.5rem 0.5rem 0;
-  flex: 1;
     
-
-
-   
-
-
+    margin-top:10px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding:6px 6px;
+    width:70%;
+    border:0;
 }
