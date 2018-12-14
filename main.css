@@ -1,7 +1,9 @@
+/*body background that displays jungle green*/
 body{
     background: rgba(7, 238, 7, 0.9);
 
 }
+/* the main container section that holds the entire for,*/
 .container{
     background: rgba(255,255,255);
     margin-top:40px;
@@ -13,12 +15,14 @@ body{
     box-shadow: 0 2px 0 2px rgba(7, 238, 7, 0.9), 8px 8px rgba(7, 238, 7, 0.9);
 
 }
+/*dispay For screens less than 720px for mobile devices.  */
 @media screen  and (max-width:720px){
     .container{
         max-width:100%;
         max-height:auto;
     }
 }
+/*Holds the main heading of the form*/
 .header{
     margin-top:-1px;
     padding:5px;
@@ -29,23 +33,28 @@ h1{
     font-size: 20px;
     color:rgba(255,255,255);
 }
+/*holds the username and icon sections.
+Facilitates in easier styling by ensuring that the graduate icon is
+placed next to the username placeholder*/
   .input-container1{
       border:2px solid;
       width:80%;
       margin-left:20px;
       margin-top: 15px;
 }
+/* Hoevering element when a user enters input*/
 .input-container1:hover{
     
     border:2px solid red; 
     transition:0.5s;  
  }
+ /*Styling of the icons*/
 .fas{
     color: green;
     margin-left:10px;
     font-size: 20px;
 }
-
+/*styling of the username placeholder*/
 input[type=text]{
     margin-top:10px;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

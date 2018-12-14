@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--REGUIRED META TAGS-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login Page</title>
@@ -9,28 +10,30 @@
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"></head>
 <body>
-        
+        <!---main section that holds the login form-->
     <div class="container">
         <div class="header">
         <h1>Login Page</h1>
         </div>
         <form action ="index.html" method ="POST">
-
+            <!--input section that holds the graduate icon and placeholder for username-->
             <div class="input-container1">
                     <i class='fas fa-user-graduate'></i>
                     <input type="text"  id ="userName"  name ="" value="" 
                     placeholder= "username" autofocus>  
                 </div>
-
+                <!--input section that holds the icon key and placeholder for password-->
             <div class="input-container2">
                     <i class='fas fa-key'></i>
                         <input type="password"  id ="passWord"  name ="" value="" 
                         placeholder="password" autofocus>
                     </div>
-                
+                    
+                <!--button section-->
             <div class ="button">
                 <input type ="submit" id="logIn" name="" value="LOG IN" autofocus>
             </div>
+            <!--link that points towars the forgot password in the event a user cannot remember-->
             <h5>
                 <a href="#">Forgot Password?</a>
             </h5>
